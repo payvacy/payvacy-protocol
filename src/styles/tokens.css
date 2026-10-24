@@ -1,0 +1,38 @@
+/*
+  Palette provenance: k-means (k=9, seed 7, 25 iterations) over every 3rd pixel of
+  reference/SAMPUL PAYVACY PNG.jpg.jpeg and reference/PAYVACY 1.jpg.jpeg. Each centroid
+  was snapped to the nearest real pixel; the coordinate is noted beside the literal.
+  This is the only file in the project that may hold colour literals.
+*/
+:root {
+  --c-void: #020404;      /* SAMPUL PAYVACY PNG @ 300,3 */
+  --c-deep: #050e09;      /* SAMPUL PAYVACY PNG @ 129,21 */
+  --c-surface: #0b1810;   /* SAMPUL PAYVACY PNG @ 84,111 */
+  --c-surface-2: #102716; /* SAMPUL PAYVACY PNG @ 1392,159 */
+  --c-forest: #1e3d1f;    /* SAMPUL PAYVACY PNG @ 1032,147 */
+  --c-moss: #37612f;      /* SAMPUL PAYVACY PNG @ 252,132 */
+  --c-sage: #689745;      /* SAMPUL PAYVACY PNG @ 1383,282 */
+  --c-lime: #b0d876;      /* PAYVACY 1 @ 918,501 */
+  --c-ink: #f2f7e5;       /* PAYVACY 1 @ 675,342 */
+  --c-accent: #92f664;    /* PAYVACY 1 @ 232,30 (wordmark pixel) */
+
+  --bg: var(--c-void);
+  --bg-2: var(--c-deep);
+  --surface: var(--c-surface);
+  --surface-2: var(--c-surface-2);
+  --text: var(--c-ink);
+  --muted: color-mix(in srgb, var(--c-ink) 62%, var(--c-void));
+  --faint: color-mix(in srgb, var(--c-ink) 38%, var(--c-void));
+  --accent: var(--c-accent);
+  --accent-soft: var(--c-lime);
+  --accent-ink: var(--c-void);
+  --line: color-mix(in srgb, var(--c-ink) 8%, transparent);
+  --line-strong: color-mix(in srgb, var(--c-ink) 16%, transparent);
+  --glow: color-mix(in srgb, var(--c-accent) 18%, transparent);
+
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-sweep: cubic-bezier(0.77, 0, 0.175, 1);
+  --dur-fast: 150ms;
+  --dur-base: 300ms;
+  --dur-reveal: 700ms;
+}

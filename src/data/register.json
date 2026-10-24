@@ -1,0 +1,74 @@
+{
+  "records": {
+    "site": {
+      "label": "Domain",
+      "state": "stated",
+      "value": "payvacy.fun",
+      "url": "https://payvacy.fun",
+      "source": "client brief",
+      "scope": "project",
+      "checked": "2026-10-24"
+    },
+    "chain": {
+      "label": "Chain",
+      "state": "stated",
+      "value": "Solana",
+      "url": "https://solana-rpc.publicnode.com",
+      "source": "client statement",
+      "scope": "batch-level",
+      "checked": "2026-10-24"
+    },
+    "ca": {
+      "label": "Token address",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "checked": "2026-10-24"
+    },
+    "x": {
+      "label": "X",
+      "state": "stated",
+      "url": "https://x.com/payvacy",
+      "source": "client statement",
+      "scope": "batch-level",
+      "checked": "2026-10-24"
+    },
+    "github": {
+      "label": "GitHub",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "checked": "2026-10-24"
+    },
+    "market-source": {
+      "label": "Market feed",
+      "state": "stated",
+      "value": "DexScreener",
+      "url": "https://api.dexscreener.com",
+      "source": "client statement",
+      "scope": "batch-level",
+      "checked": "2026-10-24"
+    },
+    "chart": {
+      "label": "Chart",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "checked": "2026-10-24"
+    },
+    "buy": {
+      "label": "Buy",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "checked": "2026-10-24"
+    },
+    "explorer": {
+      "label": "Explorer",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "checked": "2026-10-24"
+    }
+  }
+}

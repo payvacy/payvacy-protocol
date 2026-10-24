@@ -1,0 +1,20 @@
+{
+  "name": "payvacy",
+  "version": "1.0.0",
+  "description": "Payvacy landing site",
+  "scripts": {
+    "build": "node build.mjs",
+    "gates": "node gates.mjs",
+    "serve": "node tools/serve.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "jpeg-js": "^0.4.4",
+    "playwright-core": "^1.64.1",
+    "pngjs": "^7.0.0"
+  },
+  "private": true
+}
